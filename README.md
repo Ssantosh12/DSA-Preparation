@@ -1,2 +1,2 @@
-# Job-Switch-Preparation
-This repository contains practice and learning materials for job switch preparation in 2024.
+# DSA-Preparation
+This repository contains learning problems for data strutures and algorithms.
