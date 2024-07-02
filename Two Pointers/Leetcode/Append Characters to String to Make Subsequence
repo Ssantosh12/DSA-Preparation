@@ -1,0 +1,18 @@
+class Solution {
+public:
+    int appendCharacters(string s, string t) {
+        // we check how many chars of string t is present in main string s
+        // we try to find the chars of string t in s by following in a subsequence manner
+        int indT=0,i,n=s.size(),m=t.size();
+        
+        for(i=0;i<=n-1&&indT<=m-1;i++){
+            
+            // we are trying the find the characters of string 't' in string 's' following in a SUBSEQUENCE order
+            if(s[i]==t[indT])
+                indT++;
+        }
+        
+        // whatever chars of string t not found in s, will be appended in s
+        return m-indT;
+    }
+};
