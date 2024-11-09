@@ -2,6 +2,7 @@ class Solution {
 public:
     // subproblem definition: total distinct ways to reach from ith stair to target (nth) stair
     int waysFromIthToNth(int stair, int &n, vector<int> &dp){
+        
         // base case: 1. when we are at the target, i.e stair = nth stair
         // 2. when are beyond the target stair, i.e stair > nth stair
         if(stair==n){
