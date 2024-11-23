@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // TODO: this only works for small inputs, need better tie complexity solution
     // state defintion: minimum fibonacci numbers needed to reach from ith sum to target sum
     int minFibsToReachFromIth(int sum, vector<int> &fibNums, int k){
         if(sum==k)
