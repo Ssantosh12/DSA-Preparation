@@ -20,6 +20,7 @@ int main() {
       
         // using the technique 'YYYYYYYNNNNNNN' of binary search to find the answer 
         // main aim of this type of binary search is to lower the size of segment [low,high] until it contains only 1 element, i.e low = high
+        
         while(low<high){
             // EDGE CASE in Binary Search : note whenever we do 'low = mid', there is always the chance for the loop to go infinite
             // TODO: better explanation 
