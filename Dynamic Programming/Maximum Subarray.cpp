@@ -11,6 +11,7 @@ public:
         // we add the current ith element to the max subarray sum ending at (i-1)th position
         // or the current element (nums[i]) is itself greater than maxSubSumEndingIth[i-1]+nums[i]
         // NOTE: we cannot skip ith element, as we have to find valid subarray not subsequence
+        
         for(i=1;i<=n-1;i++){
             // we store the max subarray sum ending at ith in maxSubSumEndingIth array
             maxSubSumEndingIth[i]=max(maxSubSumEndingIth[i-1]+nums[i],nums[i]);
