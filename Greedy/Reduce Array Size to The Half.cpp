@@ -14,6 +14,7 @@ public:
         
         // since map sorts data structure according to the key not according to the value
         // we wiil have to sort the array of frequencies we obtained
+        
         sort(freqArr.begin(),freqArr.end());
         
         for(i=freqArr.size()-1;i>=0;i--){
