@@ -1,6 +1,7 @@
 class Solution {
 public:
     int minMoves2(vector<int>& nums) {
+        
         // sort the array and change each element to the middle element (median) of the sorted array
         int median,i,ops=0,n=nums.size();
         sort(nums.begin(),nums.end());
