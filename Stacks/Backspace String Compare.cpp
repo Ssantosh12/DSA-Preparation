@@ -1,6 +1,7 @@
 class Solution {
 public:
     bool backspaceCompare(string s, string t) {
+        
         // we can use stack for this problem (TODO: use Recursion)
         // we insert elements of the string in stack one by one and if we encounter '#' we remove the current/top element
         int i,n=s.size(),m=t.size();
